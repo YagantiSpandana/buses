@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>ONLINE BUS BOOKING</title>
+        <link rel="icon" href="./pictures/icon.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>PUBLIC ONLINE BUS SERVICES</h1>
+            <div class="nav">
+                <a href="index.html"><h2>Home</h2></a>
+                <a href="/travels.html"><h2>services</h2></a>
+                <a href="/cancel.html"><h2>cancel tickets</h2></a>
+                <a href="/contact.html"><h2>About us</h2></a>
+            </div>
+            <div class="main_head">
+                <pre><h2>Make your journey comfortable 
+    with public services
+                </h2></pre>
+                <a href="index.html"><img src="./pictures/icon.png" class="main_img"></a>
+            </div>
+            <div class="route_main">
+                <h1>Available routes</h1>
+                <div class="routes1">
+                    <ul>
+                        <li>Hyderad-Chennai</li>
+                        <li>Hyderad-Tirupati</li>
+                        <li>Hyderad-Banglore</li>
+                        <li>Hyderad-Vizag</li>
+                    </ul>
+                    <ul>
+                        <li>Chennai-Hyderad</li>
+                        <li>Chennai-Tirupati</li>
+                        <li>Chennai-Banglore</li>
+                        <li>Chennai-Vizag</li>
+                    </ul>
+                    <ul>
+                        <li>Tirupati-Hyderad</li>
+                        <li>Tirupati-Chennai</li>
+                        <li>Tirupati-Banglore</li>
+                        <li>Tirupati-Vizag</li>
+                    </ul>
+                    <ul>
+                        <li>Banglore-Hyderad</li>
+                        <li>Banglore-Chennai</li>
+                        <li>Banglore-Tirupati</li>
+                        <li>Banglore-Vizag</li>
+                    </ul>
+                    <ul>
+                        <li>Vizag-Hyderad</li>
+                        <li>Vizag-Chennai</li>
+                        <li>Vizag-Tirupati</li>
+                        <li>Vizag-Banglore</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search_main">
+                <h1>Search here</h1>
+                <form class="search">
+                    <label>From:</label>
+                    <select id="sel1">
+                        <option>Select</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                        <option>Tirupati</option>
+                        <option>Banglore</option>
+                        <option>Vizag</option>
+                    </select>
+                    <label>To:</label>
+                    <select id="sel2">
+                        <option>Select</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                        <option>Tirupati</option>
+                        <option>Banglore</option>
+                        <option>Vizag</option>
+                    </select>
+                    <label id="date">Date:<input type="text" id="dates"></label>
+                    <button onclick="return search()">Get Buses</button>
+                </form>
+            </div>
+            <div id="adding"></div>
+        <div class="footer_main">
+            <div class="footer">
+                <pre>
+                <p>Website:Public services pvt.lmt 
+Email:publicservive@gmail.com
+Contact:9374972839</p></pre>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
